@@ -1,0 +1,146 @@
+baseURL = "30.0.0.15"
+theme = "dot"
+defaultContentLanguage = "vi"
+languageCode = "vi"
+
+[params]
+primaryColor = "#02007e"
+secondaryColor = "#f9f9f9"
+textColor = "#636363"
+textColorDark = "#242738"
+whiteColor = "#ffffff"
+
+[Languages]
+
+  # Vi Language
+  [Languages.vi]
+  languageName = "Vi"
+  weight = 1
+  languageCode = "vi-vi"
+  title = "Doc List"
+  dateFormat = "2 January 2006"
+  home = "Trang chủ"
+  logo = "DevOpsViet"
+  copyright = "DevOpsViet Documents are copyright © Hugo 2019."
+
+    # navigation
+    [Languages.vi.menu]
+    
+      [[Languages.vi.menu.main]]
+        weight = 2
+        name = "Faq"
+        url = "faq"
+        
+      [[Languages.vi.menu.main]]
+        weight = 2
+        name = "Liên hệ"
+        url = "contact"
+
+    # banner
+    [Languages.vi.params.banner]
+      title = "Blog chia sẻ kiến thức"
+      description = "Cùng nhau xây dựng cộng đồng DevOps Việt Nam"
+      image = "images/banner.jpg"
+      placeholder = "Tìm kiếm chủ đề, bài viết tại đây. (VD: HAProxy, Python, v.v)"
+
+    # Topics
+    [Languages.vi.params.topics]
+      title = "CHỦ ĐỀ HIỆN CÓ"
+    
+    # call to action
+    [Languages.vi.params.cta]
+      enable = true
+      title = "Liên hệ với chúng tôi"
+      description = "Liên hệ ngay với chúng tôi."
+      btnText = "contact us"
+      btnURL = "contact"
+
+    # contact
+    [Languages.vi.params.contact]
+      title = "Got Any Questions"
+      content = "Submit the form and confirm your email address at <a class='text-primary' href='https://formspree.io/'>Formspree</a> Then add the following lines to contact page YAML Front Matter."
+
+    # footer social icon
+    [[Languages.vi.socialIcon]]
+      icon = "ti-facebook"
+      linkURL = "#"
+
+    [[Languages.vi.socialIcon]]
+      icon = "ti-twitter-alt"
+      linkURL = "#"
+      
+    [[Languages.vi.socialIcon]]
+      icon = "ti-vimeo-alt"
+      linkURL = "#"
+      
+    [[Languages.vi.socialIcon]]
+      icon = "ti-instagram"
+      linkURL = "#"
+
+
+
+  # English Language
+  [Languages.en]
+  languageName = "En"
+  weight = 1
+  languageCode = "en-us"
+  title = "Doc List"
+  dateFormat = "2 January 2006"
+  home = "Trang chủ"
+  logo = "DevOpsViet"
+  copyright = "DevOpsViet Documents are copyright © Hugo 2019."
+
+    # navigation
+    [Languages.en.menu]
+    
+      [[Languages.en.menu.main]]
+        weight = 2
+        name = "Faq"
+        url = "en/faq"
+
+        
+      [[Languages.en.menu.main]]
+        weight = 2
+        name = "Liên hệ"
+        url = "contact"
+
+    # banner
+    [Languages.en.params.banner]
+      title = "Blog chia sẻ kiến thức"
+      description = "Cùng nhau xây dựng cộng đồng DevOps Việt Nam"
+      image = "images/banner.jpg"
+      placeholder = "Tìm kiếm chủ đề, bài viết tại đây. (VD: HAProxy, Python, v.v)"
+
+    # Topics
+    [Languages.en.params.topics]
+      title = "CHỦ ĐỀ HIỆN CÓ"
+    
+    # call to action
+    [Languages.en.params.cta]
+      enable = true
+      title = "Liên hệ với chúng tôi"
+      description = "Liên hệ ngay với chúng tôi."
+      btnText = "contact us"
+      btnURL = "contact"
+
+    # contact
+    [Languages.en.params.contact]
+      title = "Got Any Questions"
+      content = "Submit the form and confirm your email address at <a class='text-primary' href='https://formspree.io/'>Formspree</a> Then add the following lines to contact page YAML Front Matter."
+
+    # footer social icon
+    [[Languages.en.socialIcon]]
+      icon = "ti-facebook"
+      linkURL = "#"
+
+    [[Languages.en.socialIcon]]
+      icon = "ti-twitter-alt"
+      linkURL = "#"
+      
+    [[Languages.en.socialIcon]]
+      icon = "ti-vimeo-alt"
+      linkURL = "#"
+      
+    [[Languages.en.socialIcon]]
+      icon = "ti-instagram"
+      linkURL = "#"
